@@ -1,11 +1,10 @@
+const { resolve4 } = require("dns");
 const express = require("express");
-const path = require("path");
 const routes = express.Router();
-
+const path = require("path");
 
 routes.get("/",(req,res,next)=>{
-    res.sendFile(path.join(__dirname,"..","views","shop.html"))
+    res.render("shop");
 })
-
 
 module.exports = routes;
