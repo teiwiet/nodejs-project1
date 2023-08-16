@@ -1,0 +1,30 @@
+.first-h1{
+    color : lightblue;
+}
+
+*{
+    padding : 0;
+    margin : 0;
+    box-sizing : border-box;
+}
+
+.main-header{
+    background-color: black;
+    height: 56px;
+    width: 100%;
+}
+
+.main-header-list-items{
+    list-style: none;
+    display: flex;
+
+}
+
+.main-header-list-items li {
+    align-items: center;
+    margin : auto;
+}
+.main-header-list-items li a{
+    color :Red; 
+    text-decoration: none;
+}
