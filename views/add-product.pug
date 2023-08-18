@@ -1,0 +1,21 @@
+doctype html
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        title #{Title} 
+        link(rel="stylesheet", href="/css/style.css")
+        link(rel="stylesheet", href="/css/form.css")
+    body 
+        header.main-header
+            nav.main-header-nav
+                ul.main-header-list-items 
+                    li.main-header-item
+                        a.main-header-item(href="/") Shop
+                    li.main-header-item
+                        a(href="/admin/add-product") Add product
+        main
+            form.input-form(action="/admin/add-product", method="POST")
+                input.first-input-form(type="text",placeholder="Title",name="title")
+                button.btn(type="submit") lmao
+                

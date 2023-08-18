@@ -1,0 +1,22 @@
+.input-form{
+    align-items: center;
+    display: flex;
+    flex-direction: column; 
+}
+.first-input-form
+{
+    margin : 10px 0;
+    height : 28px;
+    width: 200px;
+}
+
+.btn{
+    background-color: white;
+    color : green;
+    border-radius : 3px;
+}
+
+.btn:hover{
+    background-color: green;
+    color : white;
+}
